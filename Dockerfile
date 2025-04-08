@@ -1,5 +1,5 @@
 # Giai đoạn build với Gradle + JDK 21
-FROM gradle:8.3.0-jdk21 AS build
+FROM gradle:8.5.0-jdk21 AS build
 WORKDIR /app
 COPY . .
 RUN chmod +x gradlew
